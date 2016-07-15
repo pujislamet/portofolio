@@ -1,0 +1,22 @@
+$btn-color: blue;
+$radius: 5px;
+$font: Arial;
+
+body{
+    width: 100%;
+    background: url('http://www.pixelhub.me/pixelhub1/images/uploads/1385467739background_portfolio.jpg');
+    background-size: cover;
+    font-family: $font;
+}
+#content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    button{
+        background-color: $btn-color;
+        border: 1px solid #004080;
+        border-radius: $radius;
+        color:white;
+        padding: 3px 8px;
+    }
+}
